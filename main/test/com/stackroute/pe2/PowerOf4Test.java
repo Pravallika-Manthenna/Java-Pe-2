@@ -11,14 +11,12 @@ import static org.junit.Assert.*;
     PowerOf4 powerOf4;
     @Before
     public void setUp() {
-      System.out.println("before");
       powerOf4 = new PowerOf4();
     }
 
     @After
     public void tearDown() {
       powerOf4 = null;
-      System.out.println("After");
     }
     @Test
     public void givenStringContainsIntegerNumberShouldReturnResultMessage() {

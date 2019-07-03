@@ -11,14 +11,12 @@ public class PalindromeTest {
 Palindrome palindrome;
   @Before
   public void setUp(){
-    System.out.println("Before");
     palindrome = new Palindrome();
   }
 
   @After
   public void tearDown()  {
     palindrome = null;
-    System.out.println("after");
   }
   @Test
   public void givenStringContainsStringShouldReturnPalindromeString(){

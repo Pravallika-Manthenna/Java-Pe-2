@@ -11,14 +11,12 @@ public class EvenNumTestTest {
 
   @Before
   public void setUp() {
-    System.out.println("before");
     evennumtest = new EvenNumTest();
   }
 
   @After
   public void tearDown() {
     evennumtest = null;
-    System.out.println("after");
   }
 
   @Test
@@ -27,7 +25,7 @@ public class EvenNumTestTest {
     //Act
     boolean result = evennumtest.isEven(2);
     //Assert
-    assertEquals(true, result);
+    assertTrue( result);
   }
   @Test
   public void givenStringContainsIntegerShouldReturnFalse() {
@@ -35,6 +33,6 @@ public class EvenNumTestTest {
     //Act
     boolean result = evennumtest.isEven(5);
     //Assert
-    assertEquals(false, result);
+    assertFalse( result);
   }
 }

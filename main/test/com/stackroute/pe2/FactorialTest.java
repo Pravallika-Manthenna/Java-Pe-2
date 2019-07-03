@@ -10,20 +10,18 @@ public class FactorialTest {
 Factorial factorial;
   @Before
   public void setUp(){
-    System.out.println("Before");
     factorial=new Factorial();
   }
 
   @After
   public void tearDown(){
   factorial=null;
-    System.out.println("after");
   }
   @Test
   public void givenStringContainsLongNumberShouldReturnFactorial() {
     //Arrange
     //Act
-    String result = factorial.FindFactorialLong(18);
+    String result = factorial.findFactorialLong(18);
     //Assert
     assertEquals("factorial is 6402373705728000", result);
   }
@@ -31,7 +29,7 @@ Factorial factorial;
   public void givenStringContainsLongNumberShouldReturnOutOfRangeMessage() {
     //Arrange
     //Act
-    String result = factorial.FindFactorialLong(26);
+    String result = factorial.findFactorialLong(26);
     //Assert
     assertEquals("factorial is out of range", result);
   }
@@ -39,7 +37,7 @@ Factorial factorial;
   public void givenStringContainsIntegerNumberShouldReturnFactorial() {
     //Arrange
     //Act
-    String result = factorial.FindFactorialInt(8);
+    String result = factorial.findFactorialInt(8);
     //Assert
     assertEquals("factorial is 40320", result);
   }
@@ -47,7 +45,7 @@ Factorial factorial;
   public void givenStringContainsIntegerNumberShouldReturnOutOfRangeMessage() {
     //Arrange
     //Act
-    String result = factorial.FindFactorialInt(17);
+    String result = factorial.findFactorialInt(17);
     //Assert
     assertEquals("factorial is out of range", result);
   }

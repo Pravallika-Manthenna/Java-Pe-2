@@ -1,7 +1,7 @@
 package com.stackroute.pe2;
 
 public class Factorial {
-  public String FindFactorialLong( long number) {
+  public String findFactorialLong( long number) {
     String result;
     long fact = 1;
     for (int i = 1; i <= number; i++) {
@@ -19,7 +19,7 @@ public class Factorial {
 
     return result;
   }
-  public String FindFactorialInt( int number1) {
+  public String findFactorialInt( int number1) {
     String result;
     int fact = 1;
     for (int i = 1; i <= number1; i++) {

@@ -11,14 +11,12 @@ public class GradesTest {
 
   @Before
   public void setUp() {
-    System.out.println("Before");
     grades = new Grades();
   }
 
 
   @After
   public void tearDown() {
-    System.out.println("After");
     grades = null;
   }
 
