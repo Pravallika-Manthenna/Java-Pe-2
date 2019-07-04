@@ -1,8 +1,8 @@
 package com.stackroute.pe2;
   import java.util.Scanner;
-
+// program to check palindrome or not
 public class Palindrome {
-
+// checking using method
     public String Palindrome(String original){
       String result;
       String temp = original;

@@ -1,5 +1,5 @@
 package com.stackroute.pe2;
-
+// program to find power of a given number
 public class PowerOf4 {
     // Function to check if
     // x is power of 4

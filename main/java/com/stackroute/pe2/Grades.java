@@ -1,5 +1,5 @@
 package com.stackroute.pe2;
-
+// program to find grades
 import java.util.Scanner;
 
 public class Grades {

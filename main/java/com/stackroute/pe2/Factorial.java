@@ -1,5 +1,5 @@
 package com.stackroute.pe2;
-
+// program to find factorial
 public class Factorial {
   public String findFactorialLong( long number) {
     String result;
@@ -9,7 +9,7 @@ public class Factorial {
       fact = fact * i;
 
     }
-
+// if number is negative
     if(fact < 0)
     {
       return "factorial is out of range";
